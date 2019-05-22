@@ -1,0 +1,6 @@
+**/.DS_Store
+**/__pycache__
+.vscode
+results.txt
+data/*
+!data/MR_10662.txt

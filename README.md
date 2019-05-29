@@ -1,5 +1,7 @@
 ## Pytorch torchtext and ignite demo
 
+`torchtext`与`ignite`是`pytorch`官方提供的模板，前者负责数据的预处理、生成dataloader等，后者负责训练循环控制。本仓库是练习如何使用这个两个模板，模型为`BiLSTM`，数据集为`MR dataset`。本代码可自动检测`NVIDIA`显卡(`CUDA`)，如果有`CUDA`设备则使用`GPU`加速训练，否则使用`CPU`训练。
+
 ### 实验语料
 本demo使用的是经典的MR(Movie Review)情感分析语料，共10662条句子。官网为http://www.cs.cornell.edu/people/pabo/movie-review-data , 需下载其中的`sentence polarity dataset v1.0`。
 
@@ -7,7 +9,7 @@
 [Movie Review Data](http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
 
 ### 实验环境
-* macOS 10.14.5（不支持CUDA加速）
+* macOS 10.14.5（macbook不支持CUDA加速）
 * Python 3.6.8
 * Pytorch 1.1.0
 * text 0.4.0 [2019.05.22 master branch](`https://github.com/pytorch/text`)

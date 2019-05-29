@@ -9,7 +9,7 @@
 [Movie Review Data](http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
 
 ### Pre-Trained词向量
-本`demo`默认使用的是`Pre-Trained GloVe Word Embedding`, 版本为`glove.6B.50d.txt`(171M)，这是一个体积很小的词向量，方便快速加载，适合做`demo`使用。若想要使用更大规模的`GloVe`词向量，请到[官网](https://nlp.stanford.edu/projects/glove/)下载，官网中提到的`glove.6B.zip`（862M）中就包含了`glove.6B.{50d, 100d, 200d, 300d}.txt`四种规模。
+本`demo`默认使用的是`Pre-Trained GloVe Word Embedding`, 版本为`glove.6B.50d.txt`(171M)，这是一个体积很小的词向量，方便快速加载，适合做`demo`使用。若想要使用更大规模的`GloVe`词向量，请到[官网](https://nlp.stanford.edu/projects/glove/)下载，官网中提到的`glove.6B.zip`(862M)中就包含了`glove.6B.{50d, 100d, 200d, 300d}.txt`四种规模。
 
 #### 下载链接
 为方便下载，我这里把`glove.6B.50d.txt`也放到了本仓库，下载后请**解压**后使用。

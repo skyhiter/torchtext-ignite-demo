@@ -1,7 +1,13 @@
 ## Pytorch torchtext and ignite demo
 
-### 环境
-* macOS 10.14.5
+### 实验语料
+本demo使用的是经典的MR(Movie Review)情感分析语料，共10662条句子。官网为http://www.cs.cornell.edu/people/pabo/movie-review-data , 需下载其中的`sentence polarity dataset v1.0`。
+
+#### 下载链接
+(Movie Review Data)[http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz]
+
+### 实验环境
+* macOS 10.14.5（不支持CUDA加速）
 * Python 3.6.8
 * Pytorch 1.1.0
 * text 0.4.0 [2019.05.22 master branch](`https://github.com/pytorch/text`)
@@ -29,3 +35,6 @@
 ├── predict_local.py // 本地(区别于WebService)预测(推理)使用
 └── torchtext   // torchtext的源代码作为本地模块使用，未作任何修改
 ```
+
+### 实验结果
+本实验为情感分析demo，仅使用CPU(`Intel i7-7920HQ@3.10GHz`,四核八线程)训练，每个`Epoch`约用时`15s`左右，未仔细调参数的情况下最终`acc`约为`0.7745`.

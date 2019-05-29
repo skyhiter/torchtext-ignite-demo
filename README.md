@@ -4,7 +4,7 @@
 本demo使用的是经典的MR(Movie Review)情感分析语料，共10662条句子。官网为http://www.cs.cornell.edu/people/pabo/movie-review-data , 需下载其中的`sentence polarity dataset v1.0`。
 
 #### 下载链接
-(Movie Review Data)[http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz]
+[Movie Review Data](http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
 
 ### 实验环境
 * macOS 10.14.5（不支持CUDA加速）
@@ -24,7 +24,7 @@
 ```
 ./
 ├── README.md
-├── data  // 语料，日志，缓存等路径
+├── data  // 语料，日志，缓存等路径; data/MR_10662.txt中的标签0是neg, 1是pos
 ├── data_loader.py // 使用torchtext预处理数据并加载
 ├── ignite    // ignite的源代码作为本地模块使用，自己修改了ignite/handlers/early_stopping.py
 ├── ignite_0.2.0_origin.zip // ignite的源代码v0.2.0仅备份用, 未做任何修改

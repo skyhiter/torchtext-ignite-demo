@@ -4,3 +4,4 @@
 results.txt
 data/*
 !data/MR_10662.txt
+!data/glove.6B.50d.txt.zip
